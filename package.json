@@ -1,0 +1,20 @@
+{
+  "name": "hollow-vein",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Hollow Vein — a co-op campaign and open-world game set in Meridian City",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @hollow-vein/client dev",
+    "build": "pnpm --filter @hollow-vein/client build",
+    "typecheck": "pnpm -r --no-bail typecheck",
+    "desktop": "pnpm --filter @hollow-vein/desktop start",
+    "desktop:build": "pnpm build && pnpm --filter @hollow-vein/desktop build"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
