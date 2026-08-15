@@ -22,7 +22,7 @@ We match a design language. No Jailbreak assets, geometry, or map data enter thi
 | `GameDocs/hollow-vein-open-world.md` | The two modes, districts, vehicles, heat, heists, living world |
 | `GameDocs/hollow-vein-technical-architecture.md` | Stack, monorepo layout, authority model, build order |
 | `GameDocs/season-00-master-timeline.md` | Difficulty rules, points, how to read season files |
-| `GameDocs/season-01..12-*.md` | Per-season timelines |
+| `GameDocs/season-*.md` | Per-season timelines, seasons 1–12 |
 | `Season1/season-01-FULL-PRODUCTION-SPEC.md` | Season 1 implementation-ready: geometry, dialogue, cutscenes |
 
 ## Stack
